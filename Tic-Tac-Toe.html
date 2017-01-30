@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="Tic-Tac-Toe.css">
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="Tic-Tac-Toe.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Tic Tac Toe</h1>
+      <div id="winner"></div>
+      <br>
+      <div id="move">Player 1's move</div>
+      <table>
+        <tr>
+          <td><button id="c00"></button></td>
+          <td><button id="c01"></button></td>
+          <td><button id="c02"></button></td>
+        </tr>
+        <tr>
+          <td><button id="c10"></button></td>
+          <td><button id="c11"></button></td>
+          <td><button id="c12"></button></td>
+        </tr>
+        <tr>
+          <td><button id="c20"></button></td>
+          <td><button id="c21"></button></td>
+          <td><button id="c22"></button></td>
+        </tr>
+      </table>
+
+      <div id="greeting">
+        <span class="choice pvp"><img src="images/player.svg"> vs. <img src="images/player.svg"></span>
+        <span class="choice pvc"><img src="images/player.svg"> vs. <img src="images/computer.svg"></span>
+      </div>
+
+      <input type="button" id="restart" value="Restart Game"/>
+    </div>
+  </body>
+</html>

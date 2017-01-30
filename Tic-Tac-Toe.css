@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+	color: gold;
+	text-align: center;
+	font-family: Trebuchet MS;
+}
+
+button {
+	font-size: 3em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 3px solid green;
+  cursor: pointer;
+  margin: 0px;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper, table {
+  margin: 20px auto;
+}
+
+span {
+	margin: 0em 1em;
+}
+
+span img {
+	width: 100px;
+	height: 100px;
+}
+
+.player_mode {
+	background-color: green;
+}
