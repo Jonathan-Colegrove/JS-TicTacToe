@@ -33,7 +33,7 @@ td {
 }
 
 span {
-	margin: 0em 1em;
+	margin: 0em 1.5em;
 }
 
 span img {
@@ -43,4 +43,8 @@ span img {
 
 .player_mode {
 	background-color: green;
+}
+
+#winner {
+	font-size: 1.5em;
 }
